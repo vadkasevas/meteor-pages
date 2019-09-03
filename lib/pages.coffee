@@ -64,6 +64,8 @@
       n = sub.get "nPublishedPages"
       return n  if n?
 
+
+
       n = Math.ceil @Collection.find(
         $and: [
           sub.get("filters"),
